@@ -49,12 +49,14 @@
 .jumbotron h1 {
   font-family: "Segoe UI Semibold";
   margin-top: 25%;
-  left: 120px;
   color: #f2f2f2;
+}
+.jumbotron p {
+  font-family: "Segoe UI Light";
 }
 
 .jumboText {
-  position: fixed;
+  position: absolute;
   left: -100px;
 }
 
