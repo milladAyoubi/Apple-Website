@@ -58,9 +58,8 @@
   color: #f2f2f2;
 }
 .jumbotron p {
-  position: relative;
+  position: absolute;
   font-size: 22px;
-  top: 20px;
   font-family: "Segoe UI Light";
   color: white;
   padding: 2%;
@@ -72,15 +71,15 @@
 }
 
 .jumbotron a {
-  position: absolute;
-  font-size: 25px;
+  position: relative;
+
+  font-size: 28px;
   border: 2px solid white;
   background-color: white;
   color: #e87a69;
   font-style: "Segoe UI";
   border-radius: 30px;
   margin-left: 4px;
-  left: 250px;
   transition: 0.2s;
 }
 
@@ -93,8 +92,9 @@
 .jumbotron img {
   position: absolute;
   top: 80px;
-  left: 80px;
-  width: 400px;
+  left: 100px;
+  width: 480px;
+  border: 2px solid white;
   border-radius: 30px;
 }
 /* Fonts */
