@@ -9,6 +9,13 @@
   margin-top: 5px;
 }
 
+.topnav input[type="text"] {
+  padding: 6px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   color: #f2f2f2;
@@ -26,6 +33,9 @@
   transition: 0.4s;
 }
 
+.butGroup {
+  margin: 10px;
+}
 /* Add a color to the active/current link */
 
 /* Centered section inside the top navigation */
@@ -52,7 +62,12 @@
   color: #f2f2f2;
 }
 .jumbotron p {
+  position: relative;
+  font-size: 22px;
+  top: 20px;
   font-family: "Segoe UI Light";
+  color: white;
+  padding: 2%;
 }
 
 .jumboText {
@@ -60,6 +75,32 @@
   left: -100px;
 }
 
+.jumbotron a {
+  position: absolute;
+  font-size: 25px;
+  border: 2px solid white;
+  background-color: white;
+  color: #e87a69;
+  font-style: "Segoe UI";
+  border-radius: 30px;
+  margin-left: 4px;
+  left: 250px;
+  transition: 0.2s;
+}
+
+.jumbotron a:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.2s;
+}
+
+.jumbotron img {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 400px;
+  border-radius: 30px;
+}
 /* Fonts */
 @font-face {
   font-family: "Segoe UI";
